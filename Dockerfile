@@ -1,6 +1,6 @@
 FROM java:8
 
-RUN curl http://www.mirrorservice.org/sites/ftp.apache.org/activemq/5.11.1/apache-activemq-5.11.1-bin.tar.gz | tar -xz
+RUN curl https://archive.apache.org/dist/activemq/5.11.1/apache-activemq-5.11.1-bin.tar.gz | tar -xz
 
 EXPOSE 61612 61613 61616 8161
 
