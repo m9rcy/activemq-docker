@@ -1,4 +1,4 @@
 #!/bin/bash
 
-docker build -t=aterreno/activemq .
-docker push aterreno/activemq
+docker build -t=m9rcy/activemq .
+docker push m9rcy/activemq
